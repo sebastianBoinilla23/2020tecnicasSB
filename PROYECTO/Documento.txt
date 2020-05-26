@@ -1,0 +1,42 @@
+Documento parcial
+-------------------------------------------
+
+
+Funciones
+
+
+-------------------------------------------
+
+-espacioMatriz: Crea la matriz por memoria dinamica mediante los datos dados por el usuario
+        *Entrada: los pisos y la cantidad de locales que va albergar
+        *Salida: La matriz finalizada
+        *Concepto: memoria dinamica(MALLOC)
+
+-ingresarLocal: crea un local en la matriz y pide los datos de este mismo
+        *Entrada:la matriz, datos del local (nombre, id)
+        *Salida:la matriz actualizada
+        *Concepto:condicionales, paso de valores por referencia 
+
+-cambiarNombre: cambia el nombre del local deseado por el usuario
+        *Entrada:La matriz 
+        *Salida:ninguna
+        *Concepto:limpieza de buffer y strcspn
+
+-pedirlocal: pide al usuario un nombre y compara con los del centro comercial para mostralo en pantalla
+        *Entrada:la matriz, cantidad de pisos y locales
+        *Salida: El nombre del local
+        *Concepto: ciclo
+
+-valoracionLocal: le da un puntaje al local que desee el usuario
+        *Entrada:La matriz 
+        *Salida:ninguna
+        *Concepto:condionales
+
+-borrarLocal: elimina un local del centro comercial
+        *Entrada:la matriz, datos digitados por el usuario
+        *Salida:ninguna
+        *Concepto:condicionales
+
+
+
+  
