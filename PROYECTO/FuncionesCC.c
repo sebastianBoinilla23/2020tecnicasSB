@@ -1,4 +1,3 @@
-  
 #include "FuncionesCC.h"
 
 local_t** crearMatriz(int cantPisos, int cantLocales){
@@ -126,7 +125,7 @@ void guardarLocalRenta(local_t ** matrizCC, int cantPisos, int cantLocales){
   int i, j;
   local_t localLista;
   FILE *fileMCC;
-  fileMCC = = fopen(file ,"wb");
+  fileMCC = fopen(file ,"wb");
    for(i = 0; i < cantPisos; i++){
       for(j = 0; j < cantLocales; j++){
         if(matrizMall[i][j].rentaDebe != {}){
@@ -154,10 +153,10 @@ void estadoLocal (local_t ** matrizCC, int cantPisos, int cantLocales){
 				printf("2.CERRADO\n");
 				scanf("%d", est);
 				if (est == 1){
-					matrizCC[i][j].estadoT = ABIERTO
+					matrizCC[i][j].estadoT = ABIERTO;
 				}
 				else if(est ==2){
-					matrizCC[i][j].estadoT = CERRADO
+					matrizCC[i][j].estadoT = CERRADO;
 				}
 			}
         }
