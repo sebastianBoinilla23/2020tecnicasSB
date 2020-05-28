@@ -9,7 +9,7 @@ typedef enum estadoT{
 	ABIERTO,
 	CERRADO,
 
-}estado
+}estado;
 
 //Local 
 typedef struct Local{
