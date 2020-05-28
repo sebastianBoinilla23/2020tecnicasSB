@@ -34,8 +34,7 @@ int main(){
 	
 	do{
 		opc=menu();
-		switch (opc)
-		{
+		switch (opc){
 		case 1:ingresarLocal(matrizCC, cantPisos, cantLocales);
 			break;
 		case 2:cambiarNombre(matrizCC);
@@ -50,7 +49,7 @@ int main(){
 		    break;
 		case 7:guardarLocalRenta(matrizCC,  cantPisos,  cantLocales);
 		    break;
-		case 8:estadoLocal (matrizCC,  cantPisos, cantLocales)
+		case 8:estadoLocal (matrizCC,  cantPisos, cantLocales);
 		    break;
 		default:printf("Valor ingresado invalido");
 			break;
