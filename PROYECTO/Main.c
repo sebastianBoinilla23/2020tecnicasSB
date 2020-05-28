@@ -35,23 +35,23 @@ int main(){
 	do{
 		opc=menu();
 		switch (opc){
-		case 1:ingresarLocal(matrizCC, cantPisos, cantLocales);
+			case 1:ingresarLocal(matrizCC, cantPisos, cantLocales);
 			break;
-		case 2:cambiarNombre(matrizCC);
-		    break;
-	    case 3:pedirlocal(matrizCC, cantPisos, cantLocales);
-		    break;
-		case 4:valoracionLocal(matrizCC, cantPisos, cantLocales);
-		    break;
-		case 5:borrarLocal(matrizCC, cantPisos, cantLocales);
-		    break;
-		case 6:localesArriendo (matrizCC,  cantPisos,  cantLocales);
-		    break;
-		case 7:guardarLocalRenta(matrizCC,  cantPisos,  cantLocales);
-		    break;
-		case 8:estadoLocal (matrizCC,  cantPisos, cantLocales);
-		    break;
-		default:printf("Valor ingresado invalido");
+			case 2:cambiarNombre(matrizCC);
+		    	break;
+	    		case 3:pedirlocal(matrizCC, cantPisos, cantLocales);
+		    	break;
+			case 4:valoracionLocal(matrizCC, cantPisos, cantLocales);
+		    	break;
+			case 5:borrarLocal(matrizCC, cantPisos, cantLocales);
+		    	break;
+			case 6:localesArriendo (matrizCC,  cantPisos,  cantLocales);
+		    	break;
+			case 7:guardarLocalRenta(matrizCC,  cantPisos,  cantLocales);
+		    	break;
+			case 8:estadoLocal (matrizCC,  cantPisos, cantLocales);
+		    	break;
+			default:printf("Valor ingresado invalido");
 			break;
 		}
 
